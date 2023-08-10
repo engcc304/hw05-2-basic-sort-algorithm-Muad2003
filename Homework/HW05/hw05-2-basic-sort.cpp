@@ -46,9 +46,9 @@ int main()
 
     if ( b > c && b > a ) {
         if ( c > a) {
-            printf( "Output: %d %d %d", b, a, c ) ;
-        } else if ( a > c ) {
             printf( "Output: %d %d %d", b, c, a ) ;
+        } else if ( a > c ) {
+            printf( "Output: %d %d %d", b, a, c ) ;
         }   
     }// end if ถ้า B มากสุด
 
